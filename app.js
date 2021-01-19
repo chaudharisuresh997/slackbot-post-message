@@ -10,10 +10,8 @@ const process=require('process')
 //go to channel and type /invite @G //G is the app name added to workspace
 const dotenv = require('dotenv');
 
-run()//.catch(err => console.log(err));
+run()
  
-//var randomColor = colors[Math.floor(Math.random()*colors.length)]; 
-//console.log(randomColor)
  function run() {
   dotenv.config();
 
